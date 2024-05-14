@@ -1,0 +1,31 @@
+@media (max-width: 961px) {
+    nav .logo {
+        font-size: 25x;
+    }
+
+    nav .desktop_ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 895px) {
+    nav {
+        padding-inline: 25px;
+    }
+
+    nav .desktop_ul {
+        display: none;
+    }
+
+    #checkboxmenu {
+        display: block;
+    }
+
+    nav .media_ul {
+        display: block;
+    }
+
+    #checkbox:checked ~ .media_ul {
+        right: -100%;
+    }
+}
