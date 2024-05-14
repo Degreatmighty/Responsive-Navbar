@@ -55,7 +55,6 @@ nav .desktop_ul li a:hover,
 
 nav .media_ul {
     display: none;
-    position: fixed;
     top: -100%;
     left: 0;
     width: 100%;
