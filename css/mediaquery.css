@@ -26,6 +26,6 @@
     }
 
     #checkbox:checked ~ .media_ul {
-        right: 0;
+        top: 0;
     }
 }
